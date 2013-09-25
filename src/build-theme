@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+
+export FONT="Terminus 8"
+export ROOT="${HOME}/.config/awesome/themes/archnemesis"
+# export ICON="${ROOT}/awesome-icon.png"
+export ICON="${ROOT}/arch-icon.png"
+export WALLPAPER="${ROOT}/wallpaper.png"
+
+cat "${1}" | envsubst > "${2}"
